@@ -38,7 +38,7 @@ The project requires **Python 2.7** and the following Python libraries:
 All of the code is provided in the Jupyter notebook `customer_segments.ipynb`. 
 
 #### Result
-- Based on the mean silhouette coefficient*, 2 clusters seems to give the best structure for the data. 
+- Based on the mean silhouette coefficient<sup>1</sup>, 2 clusters seems to give the best structure for the data. 
 - Other than about 20 points (about 5% of data) and some points in the boundary between the two clusters, all of the HoReCa (Hotels/Restaurants/Cafes) data points are classified as cluster 0 and all of the retail data points are classified as cluster 1. 
 
-* The silhouette coefficient for a data point measures how similar it is to its assigned cluster from -1 (dissimilar) to 1 (similar).
+<sup>1</sup>The silhouette coefficient for a data point measures how similar it is to its assigned cluster from -1 (dissimilar) to 1 (similar).
